@@ -1,0 +1,64 @@
+body, *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+canvas{
+    border: 2px solid black;
+}
+
+div.container{
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: row;
+    flex-direction: column;
+}
+
+div.options{
+    margin-right: 10px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.speed-div{
+    display: flex;
+    flex-direction: column;
+}
+
+p.titles{
+    font-size: 25px;
+    color: rgb(194, 26, 26);
+}
+
+p.labels{
+    font-weight: bold;
+    font-size: 20px;
+}
+p.labels,p.titles,
+div.options{
+    padding: 10px;
+}
+
+select,
+input{
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+button{
+    cursor: pointer;
+    width: 100px;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 20px;
+    color: rgb(20, 184, 20);
+}
+
+
