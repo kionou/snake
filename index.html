@@ -27,30 +27,23 @@
 
      <div class="modal">
         <div class="modal_game">
-         <div>
-            <label for="">avec le mur</label>
-            <select>
-                <option value="0">Select car:</option>
-                <option value="1">Audi</option>
-            </select>
-            </div>
-            <input type="text" id="inputModul" placeholder="le temps">
-            <button>envoyer</button>
-            
-         </div>
+            <form action="">
+                <div class="mur">
+                    <label for="">avec le mur</label>
+                    <select required name="walls">
+                        <option value="oui">oui</option>
+                        <option value="non">non</option>
+                    </select>
+                    </div>
+                    <input type="number" required name="time" id="inputModul" placeholder="temps en s" min="10"  max="50">
+                    <button>envoyer</button>
+            </form>   
+         </div>  
+    </div> 
 
+        <div id="myModal">
           
-        </div> 
-
-        <!-- <div id="myModal" class="modal">
-
-           
-            <div class="modal-content">
-              <span class="close">JJJ</span>
-              <p>Some text in the Modal..</p>
-            </div>
-          
-          </div> -->
+          </div>
   
    
   
